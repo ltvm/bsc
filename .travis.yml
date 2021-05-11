@@ -24,4 +24,3 @@ deploy:
     script: bash .travis/docker_push.sh
     on:
       all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^develop|staging|master$
